@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Prediction</title>
+    <link rel="stylesheet" href="./css files/main.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Prediction App</h1>
+    </header>
+    <main>
+        <section>
+            <label for="user_input">Enter City:</label>
+            <input type="text" id="user_input" placeholder="Enter city name" />
+            <button id="classify_button">Get Weather</button>
+        </section>
+        <section id="weather_results">
+            <!-- Weather results will be displayed here -->
+        </section>
+        <section id="chart_container">
+            <canvas id="weather_chart"></canvas>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
